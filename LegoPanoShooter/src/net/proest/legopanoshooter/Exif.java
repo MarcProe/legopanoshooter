@@ -21,6 +21,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
 import android.util.Log;
 
 import rcs34.android.libs.ExifDriver.ExifDriver;
@@ -30,7 +31,10 @@ import rcs34.android.libs.ExifDriver.Values.ValueNumber;
 import rcs34.android.libs.ExifDriver.Values.ValueRationals;
 
 public class Exif {
-
+	
+	public static final int TAG_GPS_GPSROLL = 0xd001;	//rational64s
+	public static final int TAG_GPS_GPSPITCH = 0xd000;	//rational64s
+		
 	private ExifDriver mDriver;
 	private static final double CROP_FACTOR = 7.3840377697083439399118131300214;
 	private static final String logfile = Util.getDir().getPath()
