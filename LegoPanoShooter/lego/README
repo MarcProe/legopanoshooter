@@ -2,6 +2,6 @@ Notes:
 * The lengths of the two axles connected to the motors may not be correct in the model. Please try what fits your needs.
 * LDD did not allow to place the worm wheel on the horinzontal axle properly. The lower, horizontal axle turns the turntable with the worm.
 * In my model, the vertial structure holding the vertical axle group was reinforced with a ziptie (see picture in wiki; it is red)
-* The single axle with the black wheel and the 180° angle element is meant to wind the vetical axle into a good position if needed.  
+* The single axle with the black wheel and the 180° angle element is meant to wind the vertical axle into a good position if needed.  
 * The colors of all elements may not be correct. 
 * The robot was build with the standard mindstorms kit 8527 (http://lego.wikia.com/wiki/8527_Mindstorms_NXT)
